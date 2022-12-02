@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
-const generateMD = require('./utils/generateMarkdown')
+const generateMD = require('./utils/generateMarkdown');
+const { default: Choices } = require('inquirer/lib/objects/choices');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -113,8 +114,10 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'license'
-    }
+        name: 'license',
+        message: 'What license is used in your application',
+        Choices: ['mit', 'none', 'agpl', 'other']
+    },
 ];
 
 // TODO: Create a function to write README file
