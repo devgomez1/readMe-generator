@@ -36,7 +36,7 @@ You will need to install npm from your terminal; gitbash on windows or from righ
 
 
 ## Links 
-
+```
 github: https://github.com/devgomez1
-demo: 
-
+demo: https://drive.google.com/file/d/1fKMeNfEXhjwbMH-_C_m3XSciySFyzT7E/view 
+```
