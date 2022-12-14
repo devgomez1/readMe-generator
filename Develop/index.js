@@ -127,8 +127,7 @@ const questions = [
 
 function generated(fileName, data) {
     fs.writeFile(fileName, data, function() {
-        console.log(data),
-        console.log("ReadME Created")
+        console.log("Generated ReadME")
     })
 
 

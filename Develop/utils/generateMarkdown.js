@@ -5,20 +5,20 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
   ## Github
-  # ${data.github}
+  ### ${data.github}
   ## Installation:
-  # ${data.email}
+  ### ${data.email}
   ## Usage:
-  # ${data.usage}
+  ### ${data.usage}
   ## Instalation:
-  # ${data.installation}
+  ### ${data.installation}
   ## Testing:
-  # ${data.testing}
+  ### ${data.testing}
   ## Liscense 
-  # ${data.license}
+  ### ${data.license}
   ## Contributors 
-  # ${data.contributors}
-  ### Contact me at
+  ### ${data.contributors}
+  ## Contact me
   ### Email: ${data.email}
 `;
 }
