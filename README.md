@@ -2,7 +2,7 @@
 
 ## Description
 
-This Challenge saw me writing functions to creat a read me generator, by answering the questions on the prompt, the user can generate a read me in seconds. 
+This Challenge saw me writing functions to create a read me generator, by answering the questions on the prompt, the user can generate a read me in seconds. 
 
 ## Acceptance Critera 
 
